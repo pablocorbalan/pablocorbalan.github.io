@@ -1,0 +1,15 @@
+# Site settings
+title: Pablo Corbalán
+email: pablo.corbalan@cit.ie
+description: My personal webpage
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://pablocorbalan.me" # To be confirmed
+github_username:  pablocorbalan
+twitter_username: paulcorbalan
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+# Author
+author: Pablo Corbalan
