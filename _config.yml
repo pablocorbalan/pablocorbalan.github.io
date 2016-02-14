@@ -1,7 +1,7 @@
 # Site settings
 title: Pablo Corbalán
 email: pablo.corbalan@cit.ie
-description: My personal webpage
+description: Research, Networks, Contiki, Python, & Life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pablocorbalan.com"
 github_username:  pablocorbalan
@@ -13,3 +13,13 @@ permalink: /:title
 
 # Author
 author: Pablo Corbalan
+
+# Default Settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
