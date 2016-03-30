@@ -10,4 +10,5 @@ permalink: /publications/
 
 ### Awards
 1. **[Best Poster Award.](http://www.iti.tugraz.at/EWSN2016/cms/index.php?id=36)** 13th ACM International Conference on Embedded Wireless Systems and Networks (EWSN), Graz (Austria), February 2016.
-2. **Best Student Record of Miguel Hernández University Telecommunication Engineering Students.** Awarded by the Valencian Association of Telecommunication Engineers (COITCV).
+2. **5 Star University Student.** Awarded by Miguel Hernández University.
+3. **Best Telecommunication Student.** Awarded by the Valencian Association of Telecommunication Engineers (COITCV) and Miguel Hernández University. 
