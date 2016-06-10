@@ -30,7 +30,7 @@ The previous commands should download the latest Contiki and its submodules. If 
 {% highlight bash %}
 git checkout master
 git fetch upstream
-gir merge upstream/master
+git merge upstream/master
 git push origin master
 {% endhighlight %}
 
@@ -119,10 +119,32 @@ If by any chance, you are getting an error such as `ERROR: Timeout waiting for A
 BSL_FLAGS += -e -w -v -b 115200
 {% endhighlight %}
 
-Then, you should be able to connect via serial to your TI CC2650 LaunchPad and see something like:
+# Connecting via serial port to the LaunchPad
+
+To connect via serial port to your TI CC2650 LaunchPad, first you need to see the serial port the LaunchPad is connected to. To do that just run:
 
 {% highlight bash %}
-Contiki-3.x-2405-g562a33a
+$ ls /dev/tty.usbmodem*
+/dev/tty.usbmodemL1002961	/dev/tty.usbmodemL1002964
+{% endhighlight %}
+
+In my particular case, the LaunchPad is connected to the `/dev/tty.usbmodemL1002961` serial port. Then, I can use the `serialdump-macos` tool of Contiki to connect serially to the LaunchPad with the following command:
+
+{% highlight bash %}
+$ make login PORT=/dev/tty.usbmodemL1002961
+{% endhighlight %}
+
+Running that command you should see something like:
+
+{% highlight bash %}
+$ make login PORT=/dev/tty.usbmodemL1002961
+using saved target 'srf06-cc26xx'
+../../tools/sky/serialdump-macos -b115200 /dev/tty.usbmodemL1002961
+connecting to /dev/tty.usbmodemL1002961 (115200) [OK]
+-----------------------------------------
+Bat: Temp=22 C
+Bat: Volt=3339 mV
+Starting Contiki-3.x-2405-g562a33a
 With DriverLib v0.44336
 TI CC2650 LaunchPad
  Net: sicslowpan
@@ -131,10 +153,11 @@ TI CC2650 LaunchPad
  RF: Channel 25
 CC26XX demo
 -----------------------------------------
-Bat: Temp=22 C
-Bat: Volt=3339 mV
-Left: Pin 0, press duration 24 clock ticks
-Left: Pin 0, press duration 146 clock ticks
+Bat: Temp=26 C
+Bat: Volt=3292 mV
+Left: Pin 0, press duration 52 clock ticks
+Left: Pin 0, press duration 121 clock ticks
+Left: Pin 0, press duration 277 clock ticks
 Long button press!
 {% endhighlight %}
 
