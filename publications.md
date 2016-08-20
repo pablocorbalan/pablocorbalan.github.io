@@ -6,7 +6,7 @@ permalink: /publications/
 
 ### Papers
 
-1. **Pablo Corbalán**, Ramona Marfievici, Victor Cionca, Donna O’Shea, and Dirk Pesch. **Into the SMOG: The Stepping Stone to Centralized WSN Control**. (To Appear) In Proceedings of the 13th IEEE International Conference on Mobile Ad-hoc and Sensor Systems (MASS), Brasilia (Brazil), October 2016.[[pdf](/docs/papers/mass-into-the-smog.pdf)]
+1. **Pablo Corbalán**, Ramona Marfievici, Victor Cionca, Donna O’Shea, and Dirk Pesch. **Into the SMOG: The Stepping Stone to Centralized WSN Control**. (To Appear) In Proceedings of the 13th IEEE International Conference on Mobile Ad-hoc and Sensor Systems (MASS), Brasilia (Brazil), October 2016.
 
 ### Posters
 
