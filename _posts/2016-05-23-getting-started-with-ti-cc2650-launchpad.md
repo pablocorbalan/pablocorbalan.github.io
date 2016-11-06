@@ -20,18 +20,18 @@ Everything that you need to get started with the TI CC2650 LaunchPad and Contiki
 First, clone the [Contiki GitHub repository](https://github.com/contiki-os/contiki) and get its submodules. Specifically, the [CC26XXware](https://github.com/g-oikonomou/cc26xxware) and the [CC2538-bsl script](https://github.com/JelmerT/cc2538-bsl) submodules are required.
 
 {% highlight bash %}
-git clone https://github.com/contiki-os/contiki
-cd contiki
-git submodule update --init
+$ git clone https://github.com/contiki-os/contiki
+$ cd contiki
+$ git submodule update --init
 {% endhighlight %}
 
 The previous commands should download the latest Contiki and its submodules. If you already have a previous clone of Contiki, you can update it with `git pull`. If you have a Contiki fork that is not up-to-date you can run the following commands:
 
 {% highlight bash %}
-git checkout master
-git fetch upstream
-git merge upstream/master
-git push origin master
+$ git checkout master
+$ git fetch upstream
+$ git merge upstream/master
+$ git push origin master
 {% endhighlight %}
 
 Being `upstream` the original project repository. If you do not have any `upstream` added, you can add it like this: `git remote add upstream https://github.com/contiki-os/contiki`. 
@@ -39,16 +39,16 @@ Being `upstream` the original project repository. If you do not have any `upstre
 Then, if the submodules in your fork or clone are not up-to-date, you can update them with the following command:
 
 {% highlight bash %}
-git submodule foreach git pull origin master
+$ git submodule foreach git pull origin master
 {% endhighlight %}
 
 By now, you should have the latest Contiki, CC26XXware, and the CC2538-bsl script that you need to upload an image over the serial port to the LaunchPad. However, you may still not have a toolchain to build the firmware. To this end, you need the [GNU Tools for ARM Embedded Processors](https://launchpad.net/gcc-arm-embedded). On Mac OS X to install these tools, you can use [Homebrew](http://brew.sh) as follows:
 
 {% highlight bash %}
-brew cask install gcc-arm-embedded
+$ brew cask install gcc-arm-embedded
 {% endhighlight %}
 
-At the time of writting, this installs version 5.2.1.
+At the time of writing, this installs version 5.2.1.
 
 {% highlight bash %}
 $ arm-none-eabi-gcc --version
@@ -61,7 +61,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Finally, you will also need to install [SRecord](http://srecord.sourceforge.net). You can also use Homebrew for this purpose:
 
 {% highlight bash %}
-brew install srecord
+$ brew install srecord
 {% endhighlight %}
 
 # Flashing the LaunchPad with TI SmartRF Flash Programmer 
@@ -88,8 +88,8 @@ With these modifications you are setting the button 1 (`DIO13`) to enable the bo
 Once, you have done these modifications and you have all the requirements, you can compile a new image to flash the TI CC2650 LaunchPad. For simplicity, I will use in this post the `cc26xx-demo.c` example in Contiki. You can compile the image for the LaunchPad as follows:
 
 {% highlight bash %}
-cd contiki/examples/cc26xx/
-make BOARD=launchpad/cc2650 cc26xx-demo
+$ cd contiki/examples/cc26xx/
+$ make BOARD=launchpad/cc2650 cc26xx-demo
 {% endhighlight %}
 
 After this, you should be able to see the next files:
@@ -110,7 +110,7 @@ Now that your LaunchPad is running a firmware that has the the ROM bootloader en
 First, you need to manually enable the bootloader backdoor. To do so, connect your LaunchPad to your Mac OS computer, press and hold Button 1, reset the LaunchPad, and then release Button 1. Now, you can directly programme the LaunchPad as follows:
 
 {% highlight bash %}
-make BOARD=launchpad/cc2650 cc26xx-demo.upload
+$ make BOARD=launchpad/cc2650 cc26xx-demo.upload
 {% endhighlight %}
 
 If by any chance, you are getting an error such as `ERROR: Timeout waiting for ACK/NACK after 'Synch (0x55 0x55)'`, you may need to reduce the baudrate by modifying the `BSL_FLAGS` of the CC2538-bsl script either in `platform/srf06-cc26xx/Makefile.srf06-cc26xx` or in `platform/srf06-cc26xx/launchpad/Makefile.launchpad` to:
