@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 ### Conference Papers
-1. Pablo Corbalán, Gian Pietro Picco, and Sameera Palipana. **Chorus: UWB Concurrent Transmissions for GPS-like Passive Localization of Countless Targets**. (To appear) In *Proceedings of the 18th International Conference on Information Processing in Sensor Networks (IPSN)*, Montreal (Canada), April 2019.
+1. Pablo Corbalán, Gian Pietro Picco, and Sameera Palipana. **Chorus: UWB Concurrent Transmissions for GPS-like Passive Localization of Countless Targets**. In *Proceedings of the 18th International Conference on Information Processing in Sensor Networks (IPSN)*, Montreal (Canada), April 2019. [[pdf](/docs/papers/chorus-ipsn19.pdf)]
 
 2. Pablo Corbalán and Gian Pietro Picco. **Concurrent Ranging in Ultra-wideband Radios: Experimental Evidence, Challenges, and Opportunities**. In *Proceedings of the 15th International Conference on Embedded Wireless Systems and Networks (EWSN)*, Madrid (Spain), February 2018. **[Best Paper Award.](https://ewsn2018.networks.imdea.org)** [[pdf](/docs/papers/ewsn18-concurrent-ranging.pdf)]
 
