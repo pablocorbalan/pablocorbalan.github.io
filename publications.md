@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 ### Conference Papers
-1. Davide Vecchia, Pablo Corbalán, Timofei Istomin, and Gian Pietro Picco. **Playing with Fire: Exploring Concurrent Transmissions in Ultra-wideband Radios**. (To Appear) In Proceedings of the 18th IEEE International Conference on Sensing, Communication and Networking (SECON), Boston (MA, USA), June 2019.
+1. Davide Vecchia, Pablo Corbalán, Timofei Istomin, and Gian Pietro Picco. **Playing with Fire: Exploring Concurrent Transmissions in Ultra-wideband Radios**. In *Proceedings of the 18th IEEE International Conference on Sensing, Communication and Networking (SECON)*, Boston (MA, USA), June 2019. [[pdf](/docs/papers/fire-secon19.pdf)]
 
 2. Pablo Corbalán, Gian Pietro Picco, and Sameera Palipana. **Chorus: UWB Concurrent Transmissions for GPS-like Passive Localization of Countless Targets**. In *Proceedings of the 18th International Conference on Information Processing in Sensor Networks (IPSN)*, Montreal (Canada), April 2019. [[pdf](/docs/papers/chorus-ipsn19.pdf)]
 
