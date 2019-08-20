@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Victor Cionca on Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/authors/victor-cionca/</link>
+    <description>Recent content in Victor Cionca on Pablo Corbalán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Sat, 15 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pablocorbalan.com/authors/victor-cionca/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Into the SMOG: The Stepping Stone to Centralized WSN Control</title>
+      <link>http://pablocorbalan.com/publication/smog-mass16/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/smog-mass16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster: Building a Stairway to Centralised WSN Control</title>
+      <link>http://pablocorbalan.com/publication/stairway-ewsn16/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/stairway-ewsn16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

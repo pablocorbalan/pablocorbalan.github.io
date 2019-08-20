@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/post/</link>
+    <description>Recent content in Posts on Pablo Corbalán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Mon, 23 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pablocorbalan.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started with TI CC2650 LaunchPad and Contiki</title>
+      <link>http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/</guid>
+      <description>I just bought two TI CC2650 LaunchPads from Mouser, which feature the recently released TI CC2650 System-on-a-Chip (SoC), and I thought I could write a simple tutorial to help people get started with the LaunchPad and Contiki OS on Mac OS X.
+The CC2650 SoC integrates an ARM Cortex-M3 microcontroller together with a Bluetooth Low Energy (BLE) and IEEE 802.15.4 radio chip. This SoC brings new opportunities for wireless devices and research.</description>
+    </item>
+    
+  </channel>
+</rss>

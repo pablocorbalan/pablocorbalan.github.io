@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nikola Janicijevic on Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/authors/nikola-janicijevic/</link>
+    <description>Recent content in Nikola Janicijevic on Pablo Corbalán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pablocorbalan.com/authors/nikola-janicijevic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demo: Small PLaNS Towards Mars: Exploiting Ultra-wideband for Self-localizing Rover Navigation</title>
+      <link>http://pablocorbalan.com/publication/plans-demo/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/plans-demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/</link>
+    <description>Recent content on Pablo Corbalán</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://pablocorbalan.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TALLA: Large-scale TDoA Localization with Ultra-wideband Radios</title>
+      <link>http://pablocorbalan.com/publication/talla-ipin19/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/talla-ipin19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playing with Fire: Exploring Concurrent Transmissions in Ultra-wideband Radios</title>
+      <link>http://pablocorbalan.com/publication/fire-secon19/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/fire-secon19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chorus: UWB Concurrent Transmissions for GPS-like Passive Localization of Countless Targets</title>
+      <link>http://pablocorbalan.com/publication/chorus-ipsn19/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/chorus-ipsn19/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PLaNS: An Autonomous Local Navigation System</title>
+      <link>http://pablocorbalan.com/publication/plans-ions/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/plans-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concurrent Ranging in Ultra-wideband Radios: Experimental Evidence, Challenges, and Opportunities</title>
+      <link>http://pablocorbalan.com/publication/crng-ewsn18/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/crng-ewsn18/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This paper received the &lt;em&gt;Best Paper Award&lt;/em&gt; at EWSN&amp;rsquo;18.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demo: Small PLaNS Towards Mars: Exploiting Ultra-wideband for Self-localizing Rover Navigation</title>
+      <link>http://pablocorbalan.com/publication/plans-demo/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/plans-demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster: Enabling Contiki on Ultra-wideband Radios</title>
+      <link>http://pablocorbalan.com/publication/contiki-uwb/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/contiki-uwb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tales from the C130 Horror Room: A Wireless Sensor Network Story in a Data Center</title>
+      <link>http://pablocorbalan.com/publication/tales-failsafe17/</link>
+      <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/tales-failsafe17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Into the SMOG: The Stepping Stone to Centralized WSN Control</title>
+      <link>http://pablocorbalan.com/publication/smog-mass16/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/smog-mass16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started with TI CC2650 LaunchPad and Contiki</title>
+      <link>http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/</guid>
+      <description>
+
+&lt;p&gt;I just bought two &lt;a href=&#34;http://www.ti.com/tool/launchxl-cc2650&#34; target=&#34;_blank&#34;&gt;TI CC2650 LaunchPads&lt;/a&gt; from &lt;a href=&#34;http://www.mouser.ie/ProductDetail/Texas-Instruments/LAUNCHXL-CC2650/?qs=%2fha2pyFadug%2fd2ESpkXAEG2IdWRgnoCCyoV23EIP4Ml1o1iQsexXhHkiZkooXnRl&#34; target=&#34;_blank&#34;&gt;Mouser&lt;/a&gt;, which feature the recently released &lt;a href=&#34;http://www.ti.com/product/CC2650&#34; target=&#34;_blank&#34;&gt;TI CC2650 System-on-a-Chip (SoC)&lt;/a&gt;, and I thought I could write a simple tutorial to help people get started with the LaunchPad and &lt;a href=&#34;http://www.contiki-os.org&#34; target=&#34;_blank&#34;&gt;Contiki OS&lt;/a&gt; on Mac OS X.&lt;/p&gt;
+
+&lt;p&gt;The CC2650 SoC integrates an &lt;a href=&#34;http://www.arm.com/products/processors/cortex-m/cortex-m3.php&#34; target=&#34;_blank&#34;&gt;ARM Cortex-M3&lt;/a&gt; microcontroller together with a &lt;a href=&#34;https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy&#34; target=&#34;_blank&#34;&gt;Bluetooth Low Energy (BLE)&lt;/a&gt; and &lt;a href=&#34;https://standards.ieee.org/about/get/802/802.15.html&#34; target=&#34;_blank&#34;&gt;IEEE 802.15.4&lt;/a&gt; radio chip. This SoC brings new opportunities for wireless devices and research. For instance, &lt;a href=&#34;http://www.thingsquare.com&#34; target=&#34;_blank&#34;&gt;Thingsquare&lt;/a&gt; uses BLE for &lt;a href=&#34;http://www.thingsquare.com/blog/articles/proximity-control/&#34; target=&#34;_blank&#34;&gt;proximity control&lt;/a&gt; using the &lt;a href=&#34;http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&amp;amp;HQS=sensortag&#34; target=&#34;_blank&#34;&gt;SensorTag&lt;/a&gt;, another TI CC2650-based evaluation board. Other researchers are studying how to run RPL over BLE, see this &lt;a href=&#34;http://netlab.snu.ac.kr/~hskim/paper/Conf_2015_SenSys(2).pdf&#34; target=&#34;_blank&#34;&gt;demo&lt;/a&gt; and this &lt;a href=&#34;http://netlab.snu.ac.kr/~hskim/paper/Conf_2016_SECON.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The following picture obtained from the &lt;a href=&#34;http://www.ti.com/lit/ml/swru451/swru451.pdf&#34; target=&#34;_blank&#34;&gt;TI CC2650 LaunchPad Quick Start Guide&lt;/a&gt; details some of the LaunchPad features.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pablocorbalan.com/img/cc2650_lp_explained.png&#34; alt=&#34;TI CC2650 LaunchPad&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;Everything that you need to get started with the TI CC2650 LaunchPad and Contiki is enumerated in the Contiki TI CC2650 platform&amp;rsquo;s &lt;a href=&#34;https://github.com/contiki-os/contiki/tree/master/platform/srf06-cc26xx&#34; target=&#34;_blank&#34;&gt;README&lt;/a&gt;. Here, you can find the commands to install all these requirements on Mac OS X.&lt;/p&gt;
+
+&lt;p&gt;First, clone the &lt;a href=&#34;https://github.com/contiki-os/contiki&#34; target=&#34;_blank&#34;&gt;Contiki GitHub repository&lt;/a&gt; and get its submodules. Specifically, the &lt;a href=&#34;https://github.com/g-oikonomou/cc26xxware&#34; target=&#34;_blank&#34;&gt;CC26XXware&lt;/a&gt; and the &lt;a href=&#34;https://github.com/JelmerT/cc2538-bsl&#34; target=&#34;_blank&#34;&gt;CC2538-bsl script&lt;/a&gt; submodules are required.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git clone https://github.com/contiki-os/contiki
+$ cd contiki
+$ git submodule update --init&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The previous commands should download the latest Contiki and its submodules. If you already have a previous clone of Contiki, you can update it with &lt;code&gt;git pull&lt;/code&gt;. If you have a Contiki fork that is not up-to-date you can run the following commands:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git checkout master
+$ git fetch upstream
+$ git merge upstream/master
+$ git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Being &lt;code&gt;upstream&lt;/code&gt; the original project repository. If you do not have any &lt;code&gt;upstream&lt;/code&gt; added, you can add it like this: &lt;code&gt;git remote add upstream https://github.com/contiki-os/contiki&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, if the submodules in your fork or clone are not up-to-date, you can update them with the following command:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git submodule foreach git pull origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;By now, you should have the latest Contiki, CC26XXware, and the CC2538-bsl script that you need to upload an image over the serial port to the LaunchPad. However, you may still not have a toolchain to build the firmware. To this end, you need the &lt;a href=&#34;https://launchpad.net/gcc-arm-embedded&#34; target=&#34;_blank&#34;&gt;GNU Tools for ARM Embedded Processors&lt;/a&gt;. On Mac OS X to install these tools, you can use &lt;a href=&#34;http://brew.sh&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; as follows:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ brew cask install gcc-arm-embedded&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;At the time of writing, this installs version 5.2.1.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ arm-none-eabi-gcc --version
+arm-none-eabi-gcc &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;GNU Tools &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; ARM Embedded Processors&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;.2.1 &lt;span style=&#34;color:#ae81ff&#34;&gt;20151202&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;release&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;ARM/embedded-5-branch revision &lt;span style=&#34;color:#ae81ff&#34;&gt;231848&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+Copyright &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;C&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2015&lt;/span&gt; Free Software Foundation, Inc.
+This is free software; see the source &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; copying conditions.  There is NO
+warranty; not even &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, you will also need to install &lt;a href=&#34;http://srecord.sourceforge.net&#34; target=&#34;_blank&#34;&gt;SRecord&lt;/a&gt;. You can also use Homebrew for this purpose:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ brew install srecord&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;flashing-the-launchpad-with-ti-smartrf-flash-programmer&#34;&gt;Flashing the LaunchPad with TI SmartRF Flash Programmer&lt;/h2&gt;
+
+&lt;p&gt;Most likely, your LaunchPad comes pre-programmed with factory firmware that does not have the &lt;a href=&#34;(http://www.ti.com/lit/an/swra466a/swra466a.pdf)&#34; target=&#34;_blank&#34;&gt;ROM bootloader&lt;/a&gt; enabled. As a consequence, before you can use the &lt;a href=&#34;https://github.com/JelmerT/cc2538-bsl&#34; target=&#34;_blank&#34;&gt;CC2538-bsl script&lt;/a&gt; to programme the LaunchPad over serial, you will need to flash first the CC2650 with a new image that enables the &lt;a href=&#34;http://www.ti.com/lit/an/swra466a/swra466a.pdf&#34; target=&#34;_blank&#34;&gt;device bootloader&lt;/a&gt;. To do that, you will need to modify the &lt;a href=&#34;https://github.com/g-oikonomou/cc26xxware/blob/0270b50ac750f8f3348a98f900a470e7a65ffce8/startup_files/ccfg.c&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;ccfg.c&lt;/code&gt; file&lt;/a&gt; that you can find in:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;contiki/cpu/cc26xx-cc13xx/lib/cc26xxware/startup_files/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Specifically, you need to enable the ROM bootloader and its backdoor, define the pin state to activate the bootloader backdoor, and the DIO number of the backdoor. You can do that by looking for the bootloader definitions in the &lt;code&gt;ccfg.c&lt;/code&gt; file and modifying them as follows:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#define SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE            0xC5       &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Enable ROM boot loader
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#define SET_CCFG_BL_CONFIG_BL_LEVEL                  	0x0        &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Active low to open boot loader backdoor
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#define SET_CCFG_BL_CONFIG_BL_PIN_NUMBER                0x0D       &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// DIO number for boot loader backdoor
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#define SET_CCFG_BL_CONFIG_BL_ENABLE                 	0xC5       // Enabled boot loader backdoor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;With these modifications you are setting the button 1 (&lt;code&gt;DIO13&lt;/code&gt;) to enable the bootloader. If you prefer for any reason to use button 2 for this purpose, simply set:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#define SET_CCFG_BL_CONFIG_BL_PIN_NUMBER                0x0E       // DIO number for boot loader backdoor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Once, you have done these modifications and you have all the requirements, you can compile a new image to flash the TI CC2650 LaunchPad. For simplicity, I will use in this post the &lt;code&gt;cc26xx-demo.c&lt;/code&gt; example in Contiki. You can compile the image for the LaunchPad as follows:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cd contiki/examples/cc26xx/
+$ make BOARD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;launchpad/cc2650 cc26xx-demo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After this, you should be able to see the next files:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ls cc26xx-demo.*
+cc26xx-demo.bin			cc26xx-demo.c			cc26xx-demo.elf			cc26xx-demo.hex			cc26xx-demo.srf06-cc26xx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Basically, the &lt;code&gt;cc26xx-demo.elf&lt;/code&gt; or &lt;code&gt;cc26xx-demo.hex&lt;/code&gt; is the image that you need to flash the TI CC2650 LaunchPad. To do so, you will need the &lt;a href=&#34;http://www.ti.com/tool/flash-programmer&#34; target=&#34;_blank&#34;&gt;TI SmartRF Flash Programmer&lt;/a&gt;, which you can &lt;a href=&#34;http://www.ti.com/tool/flash-programmer&#34; target=&#34;_blank&#34;&gt;download for free from TI&lt;/a&gt;. Download the second version (v2). You will need to first sign up and then fill a form to download the software. Unfortunately, TI SmartRF Flash Programmer is only available for Windows, so you will need to either use a Windows machine or a virtual machine with &lt;a href=&#34;https://www.vmware.com/products/fusion&#34; target=&#34;_blank&#34;&gt;VMware Fusion&lt;/a&gt; or &lt;a href=&#34;http://www.parallels.com/eu/&#34; target=&#34;_blank&#34;&gt;Parallels&lt;/a&gt;. A priori, you could also use &lt;a href=&#34;https://www.virtualbox.org&#34; target=&#34;_blank&#34;&gt;VirtualBox&lt;/a&gt;. However, with VirtualBox I had a problem when upgrading the firmware in the XDS110 MCU, which is most likely the first thing you will have to do when using for the first time your LaunchPad together with SmartRF Flash Programmer.&lt;/p&gt;
+
+&lt;p&gt;Once you have TI SmartRF Flash Programmer up and running, connect your LaunchPad to your Windows (virtual) machine and you will see a device appearing in the left pannel of the application. Click on it and update if required the XDS110 firmware. Then, connect to the LaunchPad using the same pannel. Once the connection is successful, select the image to upload to the LaunchPad, i.e., either the &lt;code&gt;cc26xx-demo.elf&lt;/code&gt; or the &lt;code&gt;cc26xx-demo.hex&lt;/code&gt; files. Then, mark the three checkboxes available in the application, i.e., erase, program, and verify. Click play and wait to get the green bar reporting success. Congratulations you have programmed your LaunchPad for the first time!&lt;/p&gt;
+
+&lt;h2 id=&#34;flashing-the-launchpad-with-the-cc2538-bsl-script&#34;&gt;Flashing the LaunchPad with the CC2538-bsl script&lt;/h2&gt;
+
+&lt;p&gt;Now that your LaunchPad is running a firmware that has the the ROM bootloader enabled, you should be able to programme the LaunchPad over serial using the &lt;a href=&#34;https://github.com/JelmerT/cc2538-bsl&#34; target=&#34;_blank&#34;&gt;CC2538-bsl script&lt;/a&gt; on Mac OS X. Note that you should have the CC2538-bsl script dependencies installed.&lt;/p&gt;
+
+&lt;p&gt;First, you need to manually enable the bootloader backdoor. To do so, connect your LaunchPad to your Mac OS computer, press and hold Button 1, reset the LaunchPad, and then release Button 1. Now, you can directly programme the LaunchPad as follows:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ make BOARD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;launchpad/cc2650 cc26xx-demo.upload&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If by any chance, you are getting an error such as &lt;code&gt;ERROR: Timeout waiting for ACK/NACK after &#39;Synch (0x55 0x55)&#39;&lt;/code&gt;, you may need to reduce the baudrate by modifying the &lt;code&gt;BSL_FLAGS&lt;/code&gt; of the CC2538-bsl script either in &lt;code&gt;platform/srf06-cc26xx/Makefile.srf06-cc26xx&lt;/code&gt; or in &lt;code&gt;platform/srf06-cc26xx/launchpad/Makefile.launchpad&lt;/code&gt; to:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;BSL_FLAGS &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; -e -w -v -b &lt;span style=&#34;color:#ae81ff&#34;&gt;115200&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;connecting-via-serial-port-to-the-launchpad&#34;&gt;Connecting via serial port to the LaunchPad&lt;/h2&gt;
+
+&lt;p&gt;To connect via serial port to your TI CC2650 LaunchPad, first you need to see the serial port the LaunchPad is connected to. To do that just run:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ls /dev/tty.usbmodem*
+/dev/tty.usbmodemL1002961	/dev/tty.usbmodemL1002964&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In my particular case, the LaunchPad is connected to the &lt;code&gt;/dev/tty.usbmodemL1002961&lt;/code&gt; serial port. Then, I can use the &lt;code&gt;serialdump-macos&lt;/code&gt; tool of Contiki to connect serially to the LaunchPad with the following command:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ make login PORT&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/dev/tty.usbmodemL1002961&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Running that command you should see something like:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ make login PORT&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/dev/tty.usbmodemL1002961
+using saved target &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;srf06-cc26xx&amp;#39;&lt;/span&gt;
+../../tools/sky/serialdump-macos -b115200 /dev/tty.usbmodemL1002961
+connecting to /dev/tty.usbmodemL1002961 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;115200&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;OK&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+-----------------------------------------
+Bat: Temp&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;22&lt;/span&gt; C
+Bat: Volt&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3339&lt;/span&gt; mV
+Starting Contiki-3.x-2405-g562a33a
+With DriverLib v0.44336
+TI CC2650 LaunchPad
+ Net: sicslowpan
+ MAC: CSMA
+ RDC: ContikiMAC, Channel Check Interval: &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt; ticks
+ RF: Channel &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;
+CC26XX demo
+-----------------------------------------
+Bat: Temp&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;26&lt;/span&gt; C
+Bat: Volt&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3292&lt;/span&gt; mV
+Left: Pin &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, press duration &lt;span style=&#34;color:#ae81ff&#34;&gt;52&lt;/span&gt; clock ticks
+Left: Pin &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, press duration &lt;span style=&#34;color:#ae81ff&#34;&gt;121&lt;/span&gt; clock ticks
+Left: Pin &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, press duration &lt;span style=&#34;color:#ae81ff&#34;&gt;277&lt;/span&gt; clock ticks
+Long button press!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I hope this helps you!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Poster: Building a Stairway to Centralised WSN Control</title>
+      <link>http://pablocorbalan.com/publication/stairway-ewsn16/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/stairway-ewsn16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

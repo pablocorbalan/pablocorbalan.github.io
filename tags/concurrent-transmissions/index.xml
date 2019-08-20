@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concurrent Transmissions on Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/tags/concurrent-transmissions/</link>
+    <description>Recent content in Concurrent Transmissions on Pablo Corbalán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pablocorbalan.com/tags/concurrent-transmissions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Playing with Fire: Exploring Concurrent Transmissions in Ultra-wideband Radios</title>
+      <link>http://pablocorbalan.com/publication/fire-secon19/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/fire-secon19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chorus: UWB Concurrent Transmissions for GPS-like Passive Localization of Countless Targets</title>
+      <link>http://pablocorbalan.com/publication/chorus-ipsn19/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/chorus-ipsn19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concurrent Ranging in Ultra-wideband Radios: Experimental Evidence, Challenges, and Opportunities</title>
+      <link>http://pablocorbalan.com/publication/crng-ewsn18/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/crng-ewsn18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Into the SMOG: The Stepping Stone to Centralized WSN Control</title>
+      <link>http://pablocorbalan.com/publication/smog-mass16/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/smog-mass16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

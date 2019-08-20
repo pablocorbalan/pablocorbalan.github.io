@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Pablo Corbalán">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I just bought two TI CC2650 LaunchPads from Mouser, which feature the recently released TI CC2650 System-on-a-Chip (SoC), and I thought I could write a simple tutorial to help people get started with the LaunchPad and Contiki OS on Mac OS X.
+The CC2650 SoC integrates an ARM Cortex-M3 microcontroller together with a Bluetooth Low Energy (BLE) and IEEE 802.15.4 radio chip. This SoC brings new opportunities for wireless devices and research.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.3f509ba7fbc4f9c9596159274dd45221.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-73552608-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@paulcorbalan">
+  <meta property="twitter:creator" content="@paulcorbalan">
+  
+  <meta property="og:site_name" content="Pablo Corbalán">
+  <meta property="og:url" content="http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/">
+  <meta property="og:title" content="Getting Started with TI CC2650 LaunchPad and Contiki | Pablo Corbalán">
+  <meta property="og:description" content="I just bought two TI CC2650 LaunchPads from Mouser, which feature the recently released TI CC2650 System-on-a-Chip (SoC), and I thought I could write a simple tutorial to help people get started with the LaunchPad and Contiki OS on Mac OS X.
+The CC2650 SoC integrates an ARM Cortex-M3 microcontroller together with a Bluetooth Low Energy (BLE) and IEEE 802.15.4 radio chip. This SoC brings new opportunities for wireless devices and research."><meta property="og:image" content="http://pablocorbalan.com/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-05-23T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-05-23T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Getting Started with TI CC2650 LaunchPad and Contiki | Pablo Corbalán</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Pablo Corbalán</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards">
+            
+            <span>Awards</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience">
+            
+            <span>Experience</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Getting Started with TI CC2650 LaunchPad and Contiki</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2016-05-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-05-23 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 23, 2016</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/getting-started-with-ti-cc2650-launchpad/#disqus_thread"></a>
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>I just bought two <a href="http://www.ti.com/tool/launchxl-cc2650" target="_blank">TI CC2650 LaunchPads</a> from <a href="http://www.mouser.ie/ProductDetail/Texas-Instruments/LAUNCHXL-CC2650/?qs=%2fha2pyFadug%2fd2ESpkXAEG2IdWRgnoCCyoV23EIP4Ml1o1iQsexXhHkiZkooXnRl" target="_blank">Mouser</a>, which feature the recently released <a href="http://www.ti.com/product/CC2650" target="_blank">TI CC2650 System-on-a-Chip (SoC)</a>, and I thought I could write a simple tutorial to help people get started with the LaunchPad and <a href="http://www.contiki-os.org" target="_blank">Contiki OS</a> on Mac OS X.</p>
+
+<p>The CC2650 SoC integrates an <a href="http://www.arm.com/products/processors/cortex-m/cortex-m3.php" target="_blank">ARM Cortex-M3</a> microcontroller together with a <a href="https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy" target="_blank">Bluetooth Low Energy (BLE)</a> and <a href="https://standards.ieee.org/about/get/802/802.15.html" target="_blank">IEEE 802.15.4</a> radio chip. This SoC brings new opportunities for wireless devices and research. For instance, <a href="http://www.thingsquare.com" target="_blank">Thingsquare</a> uses BLE for <a href="http://www.thingsquare.com/blog/articles/proximity-control/" target="_blank">proximity control</a> using the <a href="http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&amp;HQS=sensortag" target="_blank">SensorTag</a>, another TI CC2650-based evaluation board. Other researchers are studying how to run RPL over BLE, see this <a href="http://netlab.snu.ac.kr/~hskim/paper/Conf_2015_SenSys(2).pdf" target="_blank">demo</a> and this <a href="http://netlab.snu.ac.kr/~hskim/paper/Conf_2016_SECON.pdf" target="_blank">paper</a>.</p>
+
+<p>The following picture obtained from the <a href="http://www.ti.com/lit/ml/swru451/swru451.pdf" target="_blank">TI CC2650 LaunchPad Quick Start Guide</a> details some of the LaunchPad features.</p>
+
+<p><img src="/img/cc2650_lp_explained.png" alt="TI CC2650 LaunchPad" /></p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>Everything that you need to get started with the TI CC2650 LaunchPad and Contiki is enumerated in the Contiki TI CC2650 platform&rsquo;s <a href="https://github.com/contiki-os/contiki/tree/master/platform/srf06-cc26xx" target="_blank">README</a>. Here, you can find the commands to install all these requirements on Mac OS X.</p>
+
+<p>First, clone the <a href="https://github.com/contiki-os/contiki" target="_blank">Contiki GitHub repository</a> and get its submodules. Specifically, the <a href="https://github.com/g-oikonomou/cc26xxware" target="_blank">CC26XXware</a> and the <a href="https://github.com/JelmerT/cc2538-bsl" target="_blank">CC2538-bsl script</a> submodules are required.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git clone https://github.com/contiki-os/contiki
+$ cd contiki
+$ git submodule update --init</code></pre></div>
+
+<p>The previous commands should download the latest Contiki and its submodules. If you already have a previous clone of Contiki, you can update it with <code>git pull</code>. If you have a Contiki fork that is not up-to-date you can run the following commands:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git checkout master
+$ git fetch upstream
+$ git merge upstream/master
+$ git push origin master</code></pre></div>
+
+<p>Being <code>upstream</code> the original project repository. If you do not have any <code>upstream</code> added, you can add it like this: <code>git remote add upstream https://github.com/contiki-os/contiki</code>.</p>
+
+<p>Then, if the submodules in your fork or clone are not up-to-date, you can update them with the following command:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git submodule foreach git pull origin master</code></pre></div>
+
+<p>By now, you should have the latest Contiki, CC26XXware, and the CC2538-bsl script that you need to upload an image over the serial port to the LaunchPad. However, you may still not have a toolchain to build the firmware. To this end, you need the <a href="https://launchpad.net/gcc-arm-embedded" target="_blank">GNU Tools for ARM Embedded Processors</a>. On Mac OS X to install these tools, you can use <a href="http://brew.sh" target="_blank">Homebrew</a> as follows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew cask install gcc-arm-embedded</code></pre></div>
+
+<p>At the time of writing, this installs version 5.2.1.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ arm-none-eabi-gcc --version
+arm-none-eabi-gcc <span style="color:#f92672">(</span>GNU Tools <span style="color:#66d9ef">for</span> ARM Embedded Processors<span style="color:#f92672">)</span> <span style="color:#ae81ff">5</span>.2.1 <span style="color:#ae81ff">20151202</span> <span style="color:#f92672">(</span>release<span style="color:#f92672">)</span> <span style="color:#f92672">[</span>ARM/embedded-5-branch revision <span style="color:#ae81ff">231848</span><span style="color:#f92672">]</span>
+Copyright <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span> <span style="color:#ae81ff">2015</span> Free Software Foundation, Inc.
+This is free software; see the source <span style="color:#66d9ef">for</span> copying conditions.  There is NO
+warranty; not even <span style="color:#66d9ef">for</span> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</code></pre></div>
+
+<p>Finally, you will also need to install <a href="http://srecord.sourceforge.net" target="_blank">SRecord</a>. You can also use Homebrew for this purpose:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew install srecord</code></pre></div>
+
+<h2 id="flashing-the-launchpad-with-ti-smartrf-flash-programmer">Flashing the LaunchPad with TI SmartRF Flash Programmer</h2>
+
+<p>Most likely, your LaunchPad comes pre-programmed with factory firmware that does not have the <a href="(http://www.ti.com/lit/an/swra466a/swra466a.pdf)" target="_blank">ROM bootloader</a> enabled. As a consequence, before you can use the <a href="https://github.com/JelmerT/cc2538-bsl" target="_blank">CC2538-bsl script</a> to programme the LaunchPad over serial, you will need to flash first the CC2650 with a new image that enables the <a href="http://www.ti.com/lit/an/swra466a/swra466a.pdf" target="_blank">device bootloader</a>. To do that, you will need to modify the <a href="https://github.com/g-oikonomou/cc26xxware/blob/0270b50ac750f8f3348a98f900a470e7a65ffce8/startup_files/ccfg.c" target="_blank"><code>ccfg.c</code> file</a> that you can find in:</p>
+
+<p><code>contiki/cpu/cc26xx-cc13xx/lib/cc26xxware/startup_files/</code></p>
+
+<p>Specifically, you need to enable the ROM bootloader and its backdoor, define the pin state to activate the bootloader backdoor, and the DIO number of the backdoor. You can do that by looking for the bootloader definitions in the <code>ccfg.c</code> file and modifying them as follows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE            0xC5       </span><span style="color:#75715e">// Enable ROM boot loader
+</span><span style="color:#75715e"></span><span style="color:#75715e">#define SET_CCFG_BL_CONFIG_BL_LEVEL                  	0x0        </span><span style="color:#75715e">// Active low to open boot loader backdoor
+</span><span style="color:#75715e"></span><span style="color:#75715e">#define SET_CCFG_BL_CONFIG_BL_PIN_NUMBER                0x0D       </span><span style="color:#75715e">// DIO number for boot loader backdoor
+</span><span style="color:#75715e"></span><span style="color:#75715e">#define SET_CCFG_BL_CONFIG_BL_ENABLE                 	0xC5       // Enabled boot loader backdoor</span></code></pre></div>
+
+<p>With these modifications you are setting the button 1 (<code>DIO13</code>) to enable the bootloader. If you prefer for any reason to use button 2 for this purpose, simply set:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define SET_CCFG_BL_CONFIG_BL_PIN_NUMBER                0x0E       // DIO number for boot loader backdoor</span></code></pre></div>
+
+<p>Once, you have done these modifications and you have all the requirements, you can compile a new image to flash the TI CC2650 LaunchPad. For simplicity, I will use in this post the <code>cc26xx-demo.c</code> example in Contiki. You can compile the image for the LaunchPad as follows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd contiki/examples/cc26xx/
+$ make BOARD<span style="color:#f92672">=</span>launchpad/cc2650 cc26xx-demo</code></pre></div>
+
+<p>After this, you should be able to see the next files:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ls cc26xx-demo.*
+cc26xx-demo.bin			cc26xx-demo.c			cc26xx-demo.elf			cc26xx-demo.hex			cc26xx-demo.srf06-cc26xx</code></pre></div>
+
+<p>Basically, the <code>cc26xx-demo.elf</code> or <code>cc26xx-demo.hex</code> is the image that you need to flash the TI CC2650 LaunchPad. To do so, you will need the <a href="http://www.ti.com/tool/flash-programmer" target="_blank">TI SmartRF Flash Programmer</a>, which you can <a href="http://www.ti.com/tool/flash-programmer" target="_blank">download for free from TI</a>. Download the second version (v2). You will need to first sign up and then fill a form to download the software. Unfortunately, TI SmartRF Flash Programmer is only available for Windows, so you will need to either use a Windows machine or a virtual machine with <a href="https://www.vmware.com/products/fusion" target="_blank">VMware Fusion</a> or <a href="http://www.parallels.com/eu/" target="_blank">Parallels</a>. A priori, you could also use <a href="https://www.virtualbox.org" target="_blank">VirtualBox</a>. However, with VirtualBox I had a problem when upgrading the firmware in the XDS110 MCU, which is most likely the first thing you will have to do when using for the first time your LaunchPad together with SmartRF Flash Programmer.</p>
+
+<p>Once you have TI SmartRF Flash Programmer up and running, connect your LaunchPad to your Windows (virtual) machine and you will see a device appearing in the left pannel of the application. Click on it and update if required the XDS110 firmware. Then, connect to the LaunchPad using the same pannel. Once the connection is successful, select the image to upload to the LaunchPad, i.e., either the <code>cc26xx-demo.elf</code> or the <code>cc26xx-demo.hex</code> files. Then, mark the three checkboxes available in the application, i.e., erase, program, and verify. Click play and wait to get the green bar reporting success. Congratulations you have programmed your LaunchPad for the first time!</p>
+
+<h2 id="flashing-the-launchpad-with-the-cc2538-bsl-script">Flashing the LaunchPad with the CC2538-bsl script</h2>
+
+<p>Now that your LaunchPad is running a firmware that has the the ROM bootloader enabled, you should be able to programme the LaunchPad over serial using the <a href="https://github.com/JelmerT/cc2538-bsl" target="_blank">CC2538-bsl script</a> on Mac OS X. Note that you should have the CC2538-bsl script dependencies installed.</p>
+
+<p>First, you need to manually enable the bootloader backdoor. To do so, connect your LaunchPad to your Mac OS computer, press and hold Button 1, reset the LaunchPad, and then release Button 1. Now, you can directly programme the LaunchPad as follows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ make BOARD<span style="color:#f92672">=</span>launchpad/cc2650 cc26xx-demo.upload</code></pre></div>
+
+<p>If by any chance, you are getting an error such as <code>ERROR: Timeout waiting for ACK/NACK after 'Synch (0x55 0x55)'</code>, you may need to reduce the baudrate by modifying the <code>BSL_FLAGS</code> of the CC2538-bsl script either in <code>platform/srf06-cc26xx/Makefile.srf06-cc26xx</code> or in <code>platform/srf06-cc26xx/launchpad/Makefile.launchpad</code> to:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">BSL_FLAGS <span style="color:#f92672">+=</span> -e -w -v -b <span style="color:#ae81ff">115200</span></code></pre></div>
+
+<h2 id="connecting-via-serial-port-to-the-launchpad">Connecting via serial port to the LaunchPad</h2>
+
+<p>To connect via serial port to your TI CC2650 LaunchPad, first you need to see the serial port the LaunchPad is connected to. To do that just run:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ls /dev/tty.usbmodem*
+/dev/tty.usbmodemL1002961	/dev/tty.usbmodemL1002964</code></pre></div>
+
+<p>In my particular case, the LaunchPad is connected to the <code>/dev/tty.usbmodemL1002961</code> serial port. Then, I can use the <code>serialdump-macos</code> tool of Contiki to connect serially to the LaunchPad with the following command:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ make login PORT<span style="color:#f92672">=</span>/dev/tty.usbmodemL1002961</code></pre></div>
+
+<p>Running that command you should see something like:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ make login PORT<span style="color:#f92672">=</span>/dev/tty.usbmodemL1002961
+using saved target <span style="color:#e6db74">&#39;srf06-cc26xx&#39;</span>
+../../tools/sky/serialdump-macos -b115200 /dev/tty.usbmodemL1002961
+connecting to /dev/tty.usbmodemL1002961 <span style="color:#f92672">(</span><span style="color:#ae81ff">115200</span><span style="color:#f92672">)</span> <span style="color:#f92672">[</span>OK<span style="color:#f92672">]</span>
+-----------------------------------------
+Bat: Temp<span style="color:#f92672">=</span><span style="color:#ae81ff">22</span> C
+Bat: Volt<span style="color:#f92672">=</span><span style="color:#ae81ff">3339</span> mV
+Starting Contiki-3.x-2405-g562a33a
+With DriverLib v0.44336
+TI CC2650 LaunchPad
+ Net: sicslowpan
+ MAC: CSMA
+ RDC: ContikiMAC, Channel Check Interval: <span style="color:#ae81ff">16</span> ticks
+ RF: Channel <span style="color:#ae81ff">25</span>
+CC26XX demo
+-----------------------------------------
+Bat: Temp<span style="color:#f92672">=</span><span style="color:#ae81ff">26</span> C
+Bat: Volt<span style="color:#f92672">=</span><span style="color:#ae81ff">3292</span> mV
+Left: Pin <span style="color:#ae81ff">0</span>, press duration <span style="color:#ae81ff">52</span> clock ticks
+Left: Pin <span style="color:#ae81ff">0</span>, press duration <span style="color:#ae81ff">121</span> clock ticks
+Left: Pin <span style="color:#ae81ff">0</span>, press duration <span style="color:#ae81ff">277</span> clock ticks
+Long button press!</code></pre></div>
+
+<p>I hope this helps you!</p>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/contiki/">contiki</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu9c828a54915a0f62652d6e2936b8d3a3_60138_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/admin/">Pablo Corbalán</a></h5>
+      <h6 class="card-subtitle">PhD Candidate</h6>
+      <p class="card-text" itemprop="description">My research interests include ultra-wideband wireless localization and low-power communication.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+          <li>
+            <a itemprop="sameAs" href="mailto:p.corbalanpelegrin@unitn.it" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/paulcorbalan" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=vrfP8fYAAAAJ&amp;hl=es" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/pablocorbalan" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/pablocorbalan/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "pablocorbalan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Pablo Corbalán &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//pablocorbalan.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3258b3a711acd6208568ec000de4beec.js"></script>
+
+  </body>
+</html>
+

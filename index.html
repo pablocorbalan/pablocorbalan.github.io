@@ -1,24 +1,2102 @@
----
-layout: default
----
 
-<div class="home">
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
 
-  <h1 class="page-heading">Posts</h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.0">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <meta name="author" content="Pablo Corbalán">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="PhD Candidate">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://pablocorbalan.com/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.3f509ba7fbc4f9c9596159274dd45221.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-73552608-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Pablo Corbalán">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Pablo Corbalán">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://pablocorbalan.com/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@paulcorbalan">
+  <meta property="twitter:creator" content="@paulcorbalan">
+  
+  <meta property="og:site_name" content="Pablo Corbalán">
+  <meta property="og:url" content="http://pablocorbalan.com/">
+  <meta property="og:title" content="Pablo Corbalán">
+  <meta property="og:description" content="PhD Candidate"><meta property="og:image" content="http://pablocorbalan.com/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2019-09-30T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Pablo Corbalán</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Pablo Corbalán</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards" data-target="#awards">
+            
+            <span>Awards</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience" data-target="#experience">
+            
+            <span>Experience</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="/authors/admin/avatar_hu9c828a54915a0f62652d6e2936b8d3a3_60138_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Pablo Corbalán</h2>
+        <h3 itemprop="jobTitle">PhD Candidate</h3>
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.unitn.it" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">University of Trento, Italy</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a itemprop="sameAs" href="mailto:p.corbalanpelegrin@unitn.it" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://twitter.com/paulcorbalan" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://scholar.google.com/citations?user=vrfP8fYAAAAJ&amp;hl=es" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/pablocorbalan" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://www.linkedin.com/in/pablocorbalan/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    
+    <h1>Hola!</h1>
+
+    <p>I am a PhD student at the D3S research group of the University of Trento, Italy, under the supervision of Prof. Gian Pietro Picco. My research is focused on energy-efficient and scalable ultra-wideband (UWB) localization.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Ultra-wideband Localization</li>
+          
+          <li>Low-power Wireless</li>
+          
+          <li>Embedded Systems</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD Information and Communication Technology, 2016 -- 2020</p>
+              <p class="institution">University of Trento, Italy</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MEng Telecommunication Engineering, 2009 -- 2014</p>
+              <p class="institution">Miguel Hernández University, Spain</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Selected Publications</h1>
+    <p><a href="/publication/">See the full publication list</a></p>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/talla-ipin19/" itemprop="url">TALLA: Large-scale TDoA Localization with Ultra-wideband Radios</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/davide-vecchia/">Davide Vecchia</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/timofei-istomin/">Timofei Istomin</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gian-pietro-picco/">Gian Pietro Picco</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/talla-ipin19/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/fire-secon19/" itemprop="url">Playing with Fire: Exploring Concurrent Transmissions in Ultra-wideband Radios</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/davide-vecchia/">Davide Vecchia</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/timofei-istomin/">Timofei Istomin</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gian-pietro-picco/">Gian Pietro Picco</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/fire-secon19.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/fire-secon19/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/chorus-ipsn19/" itemprop="url">Chorus: UWB Concurrent Transmissions for GPS-like Passive Localization of Countless Targets</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gian-pietro-picco/">Gian Pietro Picco</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sameera-palipana/">Sameera Palipana</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/chorus-ipsn19.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/chorus-ipsn19/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3302506.3310395" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/crng-ewsn18/" itemprop="url">Concurrent Ranging in Ultra-wideband Radios: Experimental Evidence, Challenges, and Opportunities</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gian-pietro-picco/">Gian Pietro Picco</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/crng-ewsn18.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/crng-ewsn18/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://ewsn.org" target="_blank" rel="noopener">
+    
+    Best Paper Award
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tales-failsafe17/" itemprop="url">Tales from the C130 Horror Room: A Wireless Sensor Network Story in a Data Center</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ramona-marfievici/">Ramona Marfievici</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/david-rojas/">David Rojas</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alan-mcgibney/">Alan McGibney</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/susan-rea/">Susan Rea</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/dirk-pesch/">Dirk Pesch</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/tales-c130-failsafe17.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/tales-failsafe17/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3143337.3143343" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="awards" class="home-section wg-accomplishments   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Awards and Honors</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Best Paper Award</h4><div class="card-subtitle my-0 article-metadata"><a href="http://www.ewsn.org" target="_blank" rel="noopener">EWSN&rsquo;18</a><span class="middot-divider"></span>
+
+            Feb 2018
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://alumni.umh.es/2016/05/02/entrega-del-certificado-universitario-cinco-estrellas-2016/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Five Star University Student</h4></a><div class="card-subtitle my-0 article-metadata"><a href="http://www.umh.es" target="_blank" rel="noopener">Miguel Hernández University</a><span class="middot-divider"></span>
+
+            Apr 2016
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Best Poster Award</h4><div class="card-subtitle my-0 article-metadata"><a href="http://www.ewsn.org" target="_blank" rel="noopener">EWSN&rsquo;16</a><span class="middot-divider"></span>
+
+            Feb 2016
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Best Telecommunication Student</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coitcv.org/?lang=es" target="_blank" rel="noopener">Colegio Oficial de Ingenieros de Telecomunicación de la Comunidad Valenciana</a><span class="middot-divider"></span>
+
+            Apr 2015
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Wireless Systems Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.bosch.com" target="_blank" rel="noopener">Bosch Research</a></h4>
+            <div class="text-muted exp-meta">
+              May 2019 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Sunnyvale, CA, USA</span>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Teaching Assistant &amp; Supervision</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.unitn.it" target="_blank" rel="noopener">University of Trento</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2017 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Trento, Italy</span>
+              
+            </div>
+            <div class="card-text"><ul>
+<li>Laboratory of Wireless Sensor Networks (Fall 2017, Fall 2018)</li>
+<li>3 MSc Thesis Co-supervised with Gian Pietro Picco
+<br /></li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Part-time Developer</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.nimbus.cit.ie" target="_blank" rel="noopener">Nimbus Centre, Cork Institute of Technology</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2014 –
+              
+                Dec 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>Cork, Ireland</span>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Erasmus Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.nimbus.cit.ie" target="_blank" rel="noopener">Nimbus Centre, Cork Institute of Technology</a></h4>
+            <div class="text-muted exp-meta">
+              Jun 2014 –
+              
+                Sep 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>Cork, Ireland</span>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Java Developer Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.umh.es" target="_blank" rel="noopener">Universidad Miguel Hernández</a></h4>
+            <div class="text-muted exp-meta">
+              Jun 2013 –
+              
+                Sep 2013
+              
+              
+                <span class="middot-divider"></span>
+                <span>Elche, Spain</span>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">R&amp;D Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://www.emxys.com" target="_blank" rel="noopener">emxys</a></h4>
+            <div class="text-muted exp-meta">
+              Mar 2013 –
+              
+                Aug 2013
+              
+              
+                <span class="middot-divider"></span>
+                <span>Elche, Spain</span>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Posts</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/post/getting-started-with-ti-cc2650-launchpad/" itemprop="url">Getting Started with TI CC2650 LaunchPad and Contiki</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      I just bought two TI CC2650 LaunchPads from Mouser, which feature the recently released TI CC2650 System-on-a-Chip (SoC), and I thought …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+
+<meta content="2016-05-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-05-23 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Pablo Corbalán</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 23, 2016</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/getting-started-with-ti-cc2650-launchpad/#disqus_thread"></a>
+  
+
+  
+  
+
+  
 
 </div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/p.corbalanpelegrin@unitn.it">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Pablo Corbalán &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//pablocorbalan.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3258b3a711acd6208568ec000de4beec.js"></script>
+
+  </body>
+</html>
+
+

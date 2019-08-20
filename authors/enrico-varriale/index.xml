@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enrico Varriale on Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/authors/enrico-varriale/</link>
+    <description>Recent content in Enrico Varriale on Pablo Corbalán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pablocorbalan.com/authors/enrico-varriale/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PLaNS: An Autonomous Local Navigation System</title>
+      <link>http://pablocorbalan.com/publication/plans-ions/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/plans-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo: Small PLaNS Towards Mars: Exploiting Ultra-wideband for Self-localizing Rover Navigation</title>
+      <link>http://pablocorbalan.com/publication/plans-demo/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/plans-demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

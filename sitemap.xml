@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/admin/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication_types/1/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/davide-vecchia/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/gian-pietro-picco/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication_types/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/scalability/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/talla-ipin19/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/tdoa-localization/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/timofei-istomin/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/ultra-wideband/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/concurrent-transmissions/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/fire-secon19/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/ranging/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/chorus-ipsn19/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/sameera-palipana/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/enrico-varriale/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/localization/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/navigation/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/plans-ions/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/crng-ewsn18/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/cooperative-localization/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/plans-demo/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/nikola-janicijevic/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/contiki-uwb/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/wireless-communication/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/alan-mcgibney/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/david-rojas/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/dirk-pesch/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/ramona-marfievici/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/susan-rea/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/tales-failsafe17/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/wireless-sensor-networks/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/communication/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/donna-oshea/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/smog-mass16/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/victor-cionca/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/post/getting-started-with-ti-cc2650-launchpad/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/post/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/contiki/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/stairway-ewsn16/</loc>
+    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/talk/</loc>
+  </url>
+  
+</urlset>
