@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://pablocorbalan.com/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,46 @@
     <item>
       <title></title>
       <link>http://pablocorbalan.com/authors/admin/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://pablocorbalan.com/authors/admin/</guid>
       <description>I am a PhD student at the D3S research group of the University of Trento, Italy, under the supervision of Prof. Gian Pietro Picco. My research is focused on energy-efficient and scalable ultra-wideband (UWB) localization.</description>
+    </item>
+    
+    <item>
+      <title>Daniele Fontanelli</title>
+      <link>http://pablocorbalan.com/authors/daniele-fontanelli/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/authors/daniele-fontanelli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gian Pietro Picco</title>
+      <link>http://pablocorbalan.com/authors/gian-pietro-picco/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/authors/gian-pietro-picco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luigi Palopoli</title>
+      <link>http://pablocorbalan.com/authors/luigi-palopoli/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/authors/luigi-palopoli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valerio Magnago</title>
+      <link>http://pablocorbalan.com/authors/valerio-magnago/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/authors/valerio-magnago/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -27,15 +63,6 @@
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>http://pablocorbalan.com/authors/davide-vecchia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gian Pietro Picco</title>
-      <link>http://pablocorbalan.com/authors/gian-pietro-picco/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://pablocorbalan.com/authors/gian-pietro-picco/</guid>
       <description></description>
     </item>
     

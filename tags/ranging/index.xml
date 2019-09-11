@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://pablocorbalan.com/tags/ranging/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Robot Localization via Odometry-assisted Ultra-wideband Ranging with Stochastic Guarantees</title>
+      <link>http://pablocorbalan.com/publication/odometry-uwb-iros19/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/odometry-uwb-iros19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Playing with Fire: Exploring Concurrent Transmissions in Ultra-wideband Radios</title>

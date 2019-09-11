@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniele Fontanelli on Pablo Corbalán</title>
+    <link>http://pablocorbalan.com/authors/daniele-fontanelli/</link>
+    <description>Recent content in Daniele Fontanelli on Pablo Corbalán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Pablo Corbalán</copyright>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pablocorbalan.com/authors/daniele-fontanelli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Robot Localization via Odometry-assisted Ultra-wideband Ranging with Stochastic Guarantees</title>
+      <link>http://pablocorbalan.com/publication/odometry-uwb-iros19/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pablocorbalan.com/publication/odometry-uwb-iros19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
