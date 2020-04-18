@@ -4,7 +4,77 @@
   
   <url>
     <loc>http://pablocorbalan.com/authors/admin/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication_types/2/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/concurrent-ranging/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/concurrent-transmissions/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/authors/gian-pietro-picco/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication_types/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/ranging/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/tags/ultra-wideband/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pablocorbalan.com/publication/crng-tosn20/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,19 +84,7 @@
   </url>
   
   <url>
-    <loc>http://pablocorbalan.com/authors/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://pablocorbalan.com/authors/daniele-fontanelli/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/authors/gian-pietro-picco/</loc>
     <lastmod>2019-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -44,29 +102,6 @@
   </url>
   
   <url>
-    <loc>http://pablocorbalan.com/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/publication_types/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/publication/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/tags/ranging/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://pablocorbalan.com/tags/robot-localization/</loc>
     <lastmod>2019-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -75,18 +110,6 @@
   <url>
     <loc>http://pablocorbalan.com/publication/odometry-uwb-iros19/</loc>
     <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/tags/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/tags/ultra-wideband/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -121,12 +144,6 @@
   <url>
     <loc>http://pablocorbalan.com/authors/timofei-istomin/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pablocorbalan.com/tags/concurrent-transmissions/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
